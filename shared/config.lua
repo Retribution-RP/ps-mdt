@@ -3,7 +3,7 @@ Config = Config or {}
 Config.RosterLink = {
     ['police'] = '',
     ['ambulance'] = '',
-    ['bcso'] = '',
+    ['sheriff'] = '',
     ['doj'] = '',
 }
 
@@ -18,7 +18,7 @@ This will only check plates of vehicles that have been occupied by a player
 
 Config.OnlyShowOnDuty = true
 
-Config.Fuel = "lj-fuel" -- "LegacyFuel", "lj-fuel"
+Config.Fuel = "LegacyFuel" -- "LegacyFuel", "lj-fuel"
 
 Config.PenalCodeTitles = {
     [1] = 'OFFENSES AGAINST PERSONS',
@@ -240,7 +240,7 @@ Config.PenalCode = {
 Config.PoliceJobs = {
     ['police'] = true,
     ['lspd'] = true,
-    ['bcso'] = true,
+    ['sheriff'] = true,
     ['sast'] = true,
     ['sasp'] = true,
     ['doc'] = true,
@@ -272,6 +272,9 @@ end
 
 Config.LogPerms = {
 	['ambulance'] = {
+		[4] = true,
+	},
+    ['sheriff'] = {
 		[4] = true,
 	},
 	['police'] = {

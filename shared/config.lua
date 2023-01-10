@@ -275,11 +275,11 @@ Config.LogPerms = {
 	['ambulance'] = {
 		[4] = true,
 	},
-    ['sheriff'] = {
-		[4] = true,
+    ['bcso'] = {
+		[12] = true,
 	},
 	['police'] = {
-		[4] = true,
+		[11] = true,
 	},
 }
 
@@ -649,4 +649,5 @@ end
 Config.ImpoundLocations = { 
     [1] = vector4(436.68, -1007.42, 27.32, 180.0),
     [2] = vector4(-436.14, 5982.63, 31.34, 136.0),
+    [3] = vector3(1871.77, 3686.61, 33.69)  --sheriff
 }

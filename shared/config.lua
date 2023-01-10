@@ -3,8 +3,9 @@ Config = Config or {}
 Config.RosterLink = {
     ['police'] = '',
     ['ambulance'] = '',
-    ['sheriff'] = '',
+    ['bcso'] = '',
     ['doj'] = '',
+    ['leo'] = '',
 }
 
 

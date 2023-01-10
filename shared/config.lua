@@ -9,7 +9,7 @@ Config.RosterLink = {
 }
 
 
-Config.UseWolfknightRadar = false
+Config.UseWolfknightRadar = true
 --[[
 Adds support for Wraith ARS 2X by WolfKnight98 (wk_wars2x)
 https://github.com/WolfKnight98/wk_wars2x

@@ -246,7 +246,7 @@ Config.PoliceJobs = {
     ['sasp'] = true,
     ['doc'] = true,
     ['sapr'] = true,
-    ['pa'] = true -- yucky
+    ['bcso'] = true -- yucky
 }
 
 Config.AmbulanceJobs = {
